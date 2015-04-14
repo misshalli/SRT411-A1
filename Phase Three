@@ -1,0 +1,1 @@
+h3<-ggplot(data=phase3,aes(x=Destination.Port,y=Destination,group=Source,fill=frequency))+geom_tile(stat="identity",colour="black")+ theme(legend.text=element_text(size=12),legend.title=element_text(size=20),axis.title.x=element_text(size=15),axis.title.y=element_text(size=15),plot.title=element_text(size=25))+ggtitle("Telnet Password Attempts - Networking Traffic Information")
